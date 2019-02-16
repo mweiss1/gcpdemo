@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-starter",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Matthew Weiss",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.33",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
